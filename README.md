@@ -8,7 +8,7 @@ Day 2: Rust
 Day 3: Haskell
 Day 4: Go
 Day 5: Ada
-Day 6: 
-Day 7: 
-Day 8: 
-Day 9: 
+Day 6: Perl
+Day 7: Swift
+Day 8: LOLCODE
+Day 9: R
