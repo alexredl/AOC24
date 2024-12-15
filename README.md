@@ -13,7 +13,7 @@ Day 7: Swift
 Day 8: LOLCODE (does not have string operators :/) -> ArnoldC
 Day 9: R
 Day 10: Java
-Day 11: 
+Day 11: PHP
 Day 12: 
 Day 13: 
 Day 14: 
