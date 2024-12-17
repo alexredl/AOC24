@@ -17,7 +17,7 @@ Day 6: Perl
 
 Day 7: Swift
 
-Day 8: ArnoldC
+Day 8: 
 
 Day 9: R
 
@@ -31,11 +31,11 @@ Day 13: Lisp
 
 Day 14: Ruby
 
-Day 15: 
+Day 15: BASIC
 
-Day 16: 
+Day 16: Julia
 
-Day 17: 
+Day 17: Assembly
 
 Day 18: 
 
