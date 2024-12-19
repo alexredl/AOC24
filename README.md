@@ -37,7 +37,7 @@ Day 16: Julia
 
 Day 17: Assembly
 
-Day 18: 
+Day 18: Scala
 
 Day 19: 
 
