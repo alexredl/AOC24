@@ -41,7 +41,7 @@ Day 18: Scala
 
 Day 19: Pascal
 
-Day 20: 
+Day 20: Kotlin
 
 Day 21: 
 
