@@ -39,7 +39,7 @@ Day 17: Assembly
 
 Day 18: Scala
 
-Day 19: 
+Day 19: Pascal
 
 Day 20: 
 
