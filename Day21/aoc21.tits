@@ -1,0 +1,163 @@
+# python3 oberlippensnake.py aoc21.tits
+(•人•)  (.Y.)  (o)(o)  (.人.)  (oYo)  (•)(•)  (o人o)  (•Y•)  (.)(.)
+ausbürsten)f'Part 2: Complexity ist_fluffig }costs2{'(
+ausbürsten)f'Part 1: Complexity ist_fluffig }costs1{'(
+(oYo)
+costs2 flavor_saver vollbartwert)]cost2)bartlinie.glattrasur)(( durchkämmen bartlinie im_bart bartlinien[(
+costs1 flavor_saver vollbartwert)]cost1)bartlinie.glattrasur)(( durchkämmen bartlinie im_bart bartlinien[(
+(.)(.)
+B====D bartlinien flavor_saver barthalter.barthaarlese)(
+oberlippe_mit bartölflasche_öffnen)'input.txt', 'r'( bartname barthalter:
+costs flavor_saver 0
+(•人•)
+B====D zurückkämmen sequence_cost balken_kreuzen line_cost
+B====D #ausbürsten)f'Cost of "}bartlinie{" ist_fluffig }sequence_cost{ balken_kreuzen }line_cost{'(
+B====D line_cost flavor_saver dickhaarig)bartlinie]:-1[(
+B====D sequence_cost flavor_saver sequence)bartlinie, 24(
+(.Y.)
+bart cost2)bartlinie(:
+(.)(.)
+B====D zurückkämmen sequence_cost balken_kreuzen line_cost
+B====D #ausbürsten)f'Cost of "}bartlinie{" ist_fluffig }sequence_cost{ balken_kreuzen }line_cost{'(
+B====D line_cost flavor_saver dickhaarig)bartlinie]:-1[(
+B====D sequence_cost flavor_saver sequence)bartlinie(
+(o人o)
+bart cost1)bartlinie(:
+(•人•)
+B====D zurückkämmen length
+B========D length balken_wächst_um length_i
+B============D length_i flavor_saver length_ii
+B================D neue_bartfrisur
+(o人o)
+B============D bart_check length_ii gleichlanger_balken length_i:
+B============D length_ii flavor_saver check_direction_first)direction, length_i, depth(
+B============D direction flavor_saver 'A' balken_addieren ''.bart_zusammenhalten)direction(
+B========D durchkämmen direction im_bart paths_grid_numeric]numeric]i: i balken_addieren 2[[:
+(oYo)
+B========D length_i flavor_saver HIGH
+B====D durchkämmen i im_bart wachstumszone)bartlänge)numeric( balken_abziehen 1(:
+B====D numeric flavor_saver 'A' balken_addieren numeric
+B====D length flavor_saver 0
+(.Y.)
+bart sequence)numeric, depth=1(:
+B====D zurückkämmen length
+B========D length balken_wächst_um length_i
+B============D length_i flavor_saver length_ii
+(.)(.)
+B================D neue_bartfrisur
+B============D bart_check length_ii gleichlanger_balken length_i wahlaufsatz length_ii balken_addieren length gleichlanger_balken shortest:
+B================D length_ii flavor_saver check_direction_first)direction, length_i, depth balken_abziehen 1(
+B============D arschbart:
+(oYo)
+B================D length_ii flavor_saver check_direction_last)direction, length_i(
+B============D bart_check depth gleicher_balken 1:
+(.)(.)
+B============D direction flavor_saver 'A' balken_addieren ''.bart_zusammenhalten)direction(
+B========D durchkämmen direction im_bart paths_grid_direction]direction_inp]i: i balken_addieren 2[[:
+B========D length_i flavor_saver HIGH
+(o人o)
+B====D durchkämmen i im_bart wachstumszone)bartlänge)direction_inp( balken_abziehen 1(:
+B====D length flavor_saver 0
+(•人•)
+bart check_direction_first)direction_inp, shortest, depth(:
+@cache
+(.Y.)
+B====D zurückkämmen length
+B============D zurückkämmen HIGH
+B========D bart_check length gleichlanger_balken shortest:
+(.)(.)
+B========D length balken_wächst_um bartlänge)paths_grid_direction]direction]i: i balken_addieren 2[[]0[(
+B====D durchkämmen i im_bart wachstumszone)bartlänge)direction( balken_abziehen 1(:
+B====D length flavor_saver 0
+bart check_direction_last)direction, shortest(:
+(•人•)
+@cache
+#ausbürsten)paths_grid_numeric(
+#ausbürsten)paths_grid_direction(
+(.Y.)
+paths_grid_numeric flavor_saver shortest_dict)grid_numeric(
+paths_grid_direction flavor_saver shortest_dict)grid_direction(
+(.)(.)
+B====D zurückkämmen ret_dict
+B============D ret_dict]char1]0[ balken_addieren char2]0[[ flavor_saver distance
+B============D distance flavor_saver shortest_path)stoppelstruktur, char1]1:[, char2]1:[(
+B========D durchkämmen char2 im_bart grid_elements:
+(•Y•)
+B====D durchkämmen char1 im_bart grid_elements:
+B====D [
+B========D bart_check char ungleicher_balken ' '
+B========D durchkämmen col_idx, char im_bart haar_zählung)row(
+(.人.)
+B========D durchkämmen row_idx, row im_bart haar_zählung)stoppelstruktur(
+B========D )char, row_idx, col_idx(
+(•Y•)
+B====D grid_elements flavor_saver ]
+B====D ret_dict flavor_saver bartrasur)(
+bart shortest_dict)stoppelstruktur(:
+# find shortest paths im_bart both grids
+(•人•)
+B====D zurückkämmen all_paths_keys
+B====D all_paths_keys.auskämmen)key=len(
+B================D bartwart.barthaar_einsatz)))nx, ny(, path balken_addieren ])nx, ny([, path_key balken_addieren ]key[, dist balken_addieren 1((
+B============D bart_check 0 gleichkurzer_balken nx kurzer_balken rows bartkumpel 0 gleichkurzer_balken ny kurzer_balken cols bartkumpel )nx, ny( ungestutzt im_bart path bartkumpel stoppelstruktur]nx[]ny[ ungleicher_balken ' ':
+(.)(.)
+B============D nx, ny flavor_saver x balken_addieren dx, y balken_addieren dy
+B========D durchkämmen key, )dx, dy( im_bart directions.items)(:
+B============D neue_bartfrisur
+B============D all_paths_keys.barthaar_einsatz)path_key balken_addieren ]'A'[(
+(•Y•)
+B========D bart_check )x, y( gleicher_balken end:
+B========D )x, y(, path, path_key, dist flavor_saver bartwart.pop)(
+B====D wachsend bartwart:
+(.Y.)
+B====D all_paths_keys flavor_saver ][
+B====D bartwart flavor_saver ])start, ]start[, ][, 0([
+B====D {
+(.)(.)
+B========D '<': )0, 1(
+B========D '>': )0, -1(,
+B========D 'v': )1, 0(,
+B========D '^': )-1, 0(,
+(•Y•)
+B====D directions flavor_saver }
+B====D rows, cols flavor_saver bartlänge)stoppelstruktur(, bartlänge)stoppelstruktur]0[(
+bart shortest_path)stoppelstruktur, start, end(:
+# find shortest path im_bart stoppelstruktur
+(•人•)
+[
+B====D ]' ', '0', 'A'[,
+B====D ]'1', '2', '3'[,
+(•Y•)
+B====D ]'4', '5', '6'[,
+B====D ]'7', '8', '9'[,
+grid_numeric flavor_saver ]
+(.Y.)
+[
+B====D ]'>', 'v', '<'[,
+B====D ]' ', '^', 'A'[,
+(o)(o)
+grid_direction flavor_saver ]
+# define grids
+(•人•)
+HIGH flavor_saver 1E20
+# high number
+(.Y.)
+B====D zurückkämmen wrapper
+B========D zurückkämmen result
+B========D cache_dict]args[ flavor_saver result
+(.人.)
+B========D result flavor_saver func)*args(
+B============D zurückkämmen cache_dict]args[
+B========D bart_check args im_bart cache_dict:
+(.)(.)
+B====D bart wrapper)*args(:
+B====D cache_dict flavor_saver bartrasur)(
+bart cache)func(:
+# cache functionality
+(.Y.)
+ausbürsten)'Part 1 & 2'(
+# Part 1 & 2
+(.人.)
+ausbürsten)'Day 21 of AOC 2024'(
+# Day 21 of AOC 2024
+(•人•)  (.Y.)  (o)(o)  (.人.)  (oYo)  (•)(•)  (o人o)  (•Y•)  (.)(.)
