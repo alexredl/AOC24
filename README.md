@@ -17,7 +17,7 @@ Day 6: Perl
 
 Day 7: Swift
 
-Day 8: 
+Day 8: Fortran
 
 Day 9: R
 
@@ -45,10 +45,10 @@ Day 20: Kotlin
 
 Day 21: Oberlippensnake
 
-Day 22: 
+Day 22: Dart
 
-Day 23: 
+Day 23: Erlang
 
-Day 24: 
+Day 24: MATLAB
 
-Day 25: 
+Day 25: Excel
